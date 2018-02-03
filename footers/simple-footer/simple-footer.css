@@ -1,27 +1,44 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1404.47">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-  </style>
-</head>
-<body>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="wrapper"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;small&gt;&amp;copy;2017 &lt;strong&gt;Awesome Company&lt;/strong&gt;, All Rights Reserved&lt;/small&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;nav class="footer-nav"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#"&gt;Back to Top&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#"&gt;Terms of Use&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#"&gt;Privacy&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-</body>
-</html>
+/* CSS reset */
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  background: url('http://i.imgur.com/f4jGhSF.png') repeat center;
+  display: table;
+  width: 100vw;
+  height: 8rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+  font-size: .875rem;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+footer small {
+  color: #ccc;
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #c74f78;
+  margin: 0 .5rem;
+  display: inline-block;
+}
+
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}

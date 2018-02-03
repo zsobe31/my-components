@@ -1,0 +1,1 @@
+Saját egyszerű footer
